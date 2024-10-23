@@ -1,0 +1,372 @@
+.p-icon {
+    padding: 3.5rem 2rem !important;
+}
+.fa-5xl {
+    font-size: 4em;
+    line-height: 0.03125em;
+    vertical-align: -0.1875em;
+}
+.service img {
+    height: 220px;
+    text-align: center;
+    padding: 2rem;
+}
+.fixed-margin {
+    margin-top: 7rem;
+}
+
+/* marchent home icon css start*/
+.icon-color{
+    color: #1e65ae;
+}
+.nav-icon{
+    color: #ffffff; /* for nav&hover */
+    
+}
+
+
+/* marchent home icon css ended*/
+
+@media only screen and (max-width: 1440px) {
+    body{
+        font-size: 15px;
+    }
+    .balance-body {
+        border: 1px;
+        padding:15rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 15px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+.fixed-margin1 {
+    margin-top: 5.5rem;
+}
+/* marchent home page css ended*/
+
+} 
+
+@media only screen and (max-width: 1024px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 1px;
+        padding:11rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+} 
+@media only screen and (max-width: 991px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 8rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+}
+
+@media only screen and (max-width: 819px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 8rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+/* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.fixed-margin1 {
+    margin-top: 3.5rem;
+}
+/* marchent home page css ended*/
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 5.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+    .offcanvas{
+        width: 65% !important;
+    }
+    h5{
+        font-size: 12px;
+    }
+    .fixed-margin {
+        margin-top: 9rem !important;
+    }
+
+    .p-icon {
+        padding: 3rem 2rem !important;
+    }
+
+    .fa-5xl {
+        font-size: 3em;
+        line-height: 0.03125em;
+        vertical-align: -0.1875em;
+    }
+    .service img {
+        height: 185px !important;
+        text-align: center;
+    }
+    .fixed-margin1 {
+        margin-top: 3.5rem;
+    }
+    .shadow{
+        box-shadow: 0 .2rem .5rem #190335 !important;
+    }
+    .carousel-indicators {
+        top: 75%;
+    }
+    /* marchent home page css start*/
+.back-color{
+    background: #1e65ae;
+    
+}
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+
+.btn-color{
+    background: linear-gradient( #1e65ae,#1e65ae);
+}
+/* marchent home page css ended*/
+}
+
+@media only screen and (max-width: 575px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 6rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .btn{
+        font-size: 11px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    body{
+        font-size: 8px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 3rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn{
+        font-size: 8px;
+    }
+    .balance-body {
+        border: 2px;
+        padding: 2.5rem;
+        color: #fff;
+        background: #1e65ae;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.circle-body{
+    border:2px #190335;
+    padding: .5rem 1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+
+.balance-color{
+    color:#190335; 
+    font-weight: bold;
+}
+
+/* login css start*/
+.form-box{
+    width: 300px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #F0F8FF;
+    padding: 5px;
+}
+
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #2388db;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    
+    width:50%;
+    padding: 6px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff015f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    
+}
+.span{
+    color: #777;
+    font-size: 15px;
+    bottom: 68px;
+    
+}
+.progress {
+    --bs-progress-height: 0.3rem !important;
+}
+
+/* login css Ended*/
+
