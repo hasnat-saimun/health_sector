@@ -7,9 +7,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
         <!-- font owsam -->
         <script src="https://kit.fontawesome.com/32dcd4a478.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="{{ asset('/public/assets/css/') }}/style.css">
+        <link rel="stylesheet" href="{{ asset('/public/assets/css/') }}/style.css" />
     </head>
-    <body>
+    <body style="background-color: #e8f9f7;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow mb-2">
             <div class="container">
                 <div class="row align-items-center">
@@ -20,28 +20,24 @@
                     </div>
                     <div class="col-12 col-md-10 mx-auto">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">
-                            </span>
+                            <span class="navbar-toggler-icon"> </span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto text-uppercase fw-bold">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto text-uppercase fw-bold ">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">হোম</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">হাসপাতাল এবং ডায়াগনস্টিক সেন্টার</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Our Services</a>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="">ডাক্তার</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{route('viewLogin')}}">Marchent Login</a>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">ই-মেডিসিন</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contract Sales</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Report Issue</a>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">ব্লাড খুঁজুন</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,231 +45,168 @@
                 </div>
             </div>
         </nav>
-        <div class="container text-center fixed-margin">
-          
+        <div class="container text-center fixed-margin "  >
             <div class="row">
-                  <div class="col-12  my-2">
-                    <h3 class="fw-bold ">আমাদের সেবা সমূহ</h3>
+                <div class="col-12 text-info my-2">
+                    <h4 class="fw-bold">স্মার্ট স্বাস্থ্য সেবা নাগরিক পোর্টালে স্বাগতম</h4>
+                    <h6 class="text-uppercase fw-bold mt-3 ">এইচপিভি টিকা গ্রহণের প্রক্রিয়া</h6>
                 </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/school.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/school.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    স্কুল ম্যানেজমেন্ট 
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/transprot.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/transprot.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    যানবাহন লাইসেন্স
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/water.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/water.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    পানি বিল কালেকশন
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/trade_licence.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/trade_licence.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    ট্রেড লাইসেন্স ম্যানেজমেন্ট
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/holding_tax.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/holding_tax.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    হোল্ডিং ট্যাক্স ম্যানেজমেন্ট
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-4 mt-3">
-                    <a href="">
-                        <div class="card text-bg-light">
-                            <div class="row">
-                                <div class="col-md-12 service d-none d-md-block">
-                                    <img class="rounded-circle shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/sonod.png" alt="avatar" />
-                                </div>
-                                <div class="col-12 service d-block d-md-none">
-                                    <img class="rounded-circle shadow-1-strong w-100 d-block d-md-none" src="{{ asset('/public/assets/img') }}/sonod.png" alt="avatar" />
-                                </div>
-                                <div class="col-md-12 text-uppercase fw-semibold mb-4">
-                                    সনদ ব্যবস্থাপনা
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div class="col-12 mt-3">
+                    <img class="shadow-1-strong w-75" src="{{ asset('/public/assets/img') }}/hpv-setps.png" alt="avatar" />
                 </div>
             </div>
-            <div class="row mt-4 text-center mx-auto mt-4">
-                    <div class="col-12  my-2">
-                    <h3 class="fw-bold">আমাদের গ্রাহক</h3>
-                </div>
+            <div class="row mt-4 text-center mx-auto">
                 <!-- Carousel wrapper -->
                 <div id="carouselMultiItemExample" data-bs-carousel-init class="carousel slide carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner py-4">
                         <!-- Inner -->
-                        <!-- Single item -->
-                        <div class="carousel-item active">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client1.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client2.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client3.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('public/assets/slider/') }}/Banner-01-c3042eb0.png" class="d-block w-100" alt="payOnline" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('public/assets/slider/') }}/Banner-02-97b3a83c.png" class="d-block w-100" alt="payplusApps" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('public/assets/slider/') }}/Banner-03-e906c2c7.png" class="d-block w-100" alt="payplusShop" />
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Single item -->
-                        <div class="carousel-item">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client4.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client5.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client6.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single item -->
-                        <div class="carousel-item">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client7.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client8.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-
-                                    <div class="col-lg-4 d-none d-lg-block">
-                                        <img class="rounded-circle shadow-1-strong mb-4" src="{{ asset('/public/assets/client/') }}/client9.webp" alt="avatar" style="width: 150px;" />
-                                    </div>
-                                </div>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                         </div>
                     </div>
                     <!-- Inner -->
                     <!-- Controls -->
-                    <div class="d-flex justify-content-center mb-4">
-                        <button data-bs-button-init class="carousel-control-prev position-relative" type="button" data-bs-target="#carouselMultiItemExample" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon text-body" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button data-bs-button-init class="carousel-control-next position-relative" type="button" data-bs-target="#carouselMultiItemExample" data-bs-slide="next">
-                            <span class="carousel-control-next-icon text-body" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
                 </div>
                 <!-- Carousel wrapper -->
+                 
+                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                    
+                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">নিবন্ধন করুন
+                    </a></button>
+                    
+                </div>
+                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">লগ ইন</a></button>
+                </div>
+                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">টিকা কার্ড সংগ্রহ</a></button>
+                </div>
+                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">কার্ড যাচাই করুন</a></button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 my-2">
+                    <h4 class="fw-bold text-info"><a href="{{route('registerPage')}}" class="text-dark">টিকা গ্রহণের প্রক্রিয়া</a></h4>
+                </div>
+                
+                <div class="col-6 col-md-3 mt-3">
+                    <a href="">
+                        <div class="card text-bg-light">
+                            <div class="row">
+                                <div class="col-md-12 text-uppercase fw-semibold mt-3 text-info">
+                                    <h4>১ম ধাপ</h4> 
+                                </div>
+                                <div class="col-md-12">
+                                    <img class="" src="{{ asset('/public/assets/img') }}/info_2.png" alt="avatar" />
+                                </div>
+                                <div class="col-md-12 mt-4 text-uppercase fw-semibold text-info">
+                                    <h4>অনলাইনে নিবন্ধন</h4>
+                                </div>
+                                <div class="col-12 text-center px-3 text-info">
+                                <p>প্রথমে এই পোর্টালের মাধ্যমে জন্ম নিবন্ধন সনদ নম্বর ও সঠিক মোবাইল নম্বর যাচাইপূর্বক অনলাইনে নিবন্ধন সম্পন্ন করবেন।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <a href="">
+                        <div class="card text-bg-light">
+                            <div class="row">
+                                <div class="col-md-12 text-uppercase fw-semibold mt-3 text-info">
+                                    <h4>২য় ধাপ</h4> 
+                                </div>
+                                <div class="col-md-12">
+                                    <img class="" src="{{ asset('/public/assets/img') }}/info_2.png" alt="avatar" />
+                                </div>
+                                <div class="col-md-12 mt-4 text-uppercase fw-semibold text-info">
+                                    <h4>কাঙ্ক্ষিত টিকাদান প্রোগামে নিবন্ধন করুন</h4>
+                                </div>
+                                <div class="col-12 text-center px-3 text-info">
+                                <p>আপনার প্রোফাইলে থাকা টিকাদান তালিকা থেকে কাঙ্ক্ষিত টিকাটি নির্বাচন করে প্রয়োজনীয় তথ্যাদি প্রদান করে নিবন্ধন করুন।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <a href="">
+                        <div class="card text-bg-light">
+                            <div class="row">
+                                <div class="col-md-12 text-uppercase fw-semibold mt-3 text-info">
+                                    <h4>৩য় ধাপ</h4> 
+                                </div>
+                                <div class="col-md-12">
+                                    <img class="" src="{{ asset('/public/assets/img') }}/info_2.png" alt="avatar" />
+                                </div>
+                                <div class="col-md-12 mt-4 text-uppercase fw-semibold text-info">
+                                    <h4>টিকা কার্ড ডাউনলোড</h4>
+                                </div>
+                                <div class="col-12 text-center px-3 text-info">
+                                <p>টিকা কার্ডটি ডাউনলোড করে সংরক্ষণ করুন, টিকা গ্রহণের জন্য কার্ডটি আবশ্যক, কার্ডে থাকা গুরুত্বপূর্ণ নির্দেশনাসমূহ অনুসরণ করুন।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mt-3">
+                    <a href="">
+                        <div class="card text-bg-light">
+                            <div class="row">
+                                <div class="col-md-12 text-uppercase fw-semibold mt-3 text-info">
+                                    <h4>৪র্থ ধাপ</h4> 
+                                </div>
+                                <div class="col-md-12">
+                                    <img class="" src="{{ asset('/public/assets/img') }}/info_2.png" alt="avatar" />
+                                </div>
+                                <div class="col-md-12 mt-4 text-uppercase fw-semibold text-info">
+                                    <h4>টিকা কেন্দ্রে টিকা গ্রহণ করুন</h4>
+                                </div>
+                                <div class="col-12 text-center px-3 text-info">
+                                <p>টিকা গ্রহণের জন্য টিকা কার্ডটি নিয়ে নির্ধারিত টিকা কেন্দ্রে যান। ভবিষ্যতে বিভিন্ন নাগরিক সেবা এবং টিকা পাওয়ার প্রমাণস্বরূপ টিকা কার্ডটি সংরক্ষণ করুন। </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
             </div>
         </div>
         <!-- Remove the container if you want to extend the Footer to full width. -->
         <div class="mt-5">
-              <!-- Footer -->
+            <!-- Footer -->
             <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;">
                 <!-- Section: Social media -->
-                <section class="d-flex justify-content-between p-4" style="background-color: #6351ce;">
-                    <!-- Left -->
-                    <div class="me-5">
-                        <span>আমাদের তথ্য :</span>
-                    </div>
-                    <!-- Left -->
+                <section class="d-flex justify-content-center p-4" >
+                    <div class="row text-center">
 
-                    <!-- Right -->
-                    <div>
-                        <a href="" class="text-white me-4">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="" class="text-white me-4">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="" class="text-white me-4">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="mailto:ceolabib@gmail.com" class="text-white me-4">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="" class="text-white me-4">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="" class="text-white me-4">
-                            <i class="fab fa-github"></i>
-                        </a>
+                    <div class="">
+                        <span>নিবন্ধন সম্পর্কিত যেকোনো সহযোগিতায় :</span>
+                        
                     </div>
-                    <!-- Right -->
+                    <div>
+                    <img class="" src="{{ asset('/public/assets/payment') }}/phone.png" alt="avatar" />
+                    <span class="mt-2">১০৩৫৪</span>
+                    </div>
+                    </div>
+
+                    
                 </section>
                 <!-- Section: Social media -->
 
@@ -285,10 +218,10 @@
                             <!-- Grid column -->
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <!-- Content -->
-                                <h6 class="text-uppercase fw-bold">Aichgati IT</h6>
+                                <h6 >স্মার্ট স্বাস্থ্য সেবা</h6>
                                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px;" />
                                 <p>
-                                আমরা আমাদের সেবা গুলো গ্রাহকের প্রত্যাশা ও প্রয়োজন অনুযায়ী পূরণ করতে সক্ষম ।
+                                    আমরা আমাদের সেবা গুলো গ্রাহকের প্রত্যাশা ও প্রয়োজন অনুযায়ী পূরণ করতে সক্ষম ।
                                 </p>
                             </div>
                             <!-- Grid column -->
@@ -296,38 +229,32 @@
                             <!-- Grid column -->
                             <div class="col-md-5 col-lg-2 col-xl-2 mx-auto mb-4">
                                 <!-- Links -->
-                                <h6 class="text-uppercase fw-bold">পেমেন্ট পদ্ধতি</h6>
+                                <h6>সহযোগী সংস্থাসমূহ</h6>
                                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px;" />
-                                <div class="row">
-                                  <div class="col-4  ">
-                                    <a href="">
-                                      <img class="rounded-circle shadow-1-strong w-100 " src="{{ asset('/public/assets/payment') }}/roket.png" alt="avatar" />
-                                    </a>
-                                  </div>
-                                  <div class="col-4 ">
-                                    <a href="">
-                                      <img class="rounded-circle shadow-1-strong w-75 " src="{{ asset('/public/assets/payment') }}/bekash.png" alt="avatar" />
-                                    </a>
-                                  </div>
-                                  <div class="col-4 ">
-                                    <a href="">
-                                      <img class="rounded-circle shadow-1-strong w-75 " src="{{ asset('/public/assets/payment') }}/nogod.png" alt="avatar" />
-                                    </a>
-                                  </div>
-                                  <div class="col-4 mt-3">
-                                    <a href="">
-                                      <img class="rounded-circle shadow-1-strong w-100 " src="{{ asset('/public/assets/payment') }}/upya.png" alt="abaer" />
-                                    </a>
-                                  </div>
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <a href="">
+                                            <img class="w-100" src="{{ asset('/public/assets/payment') }}/mis_logo 1.png" alt="avatar" />
+                                        </a>
+                                    </div>
+                                    <div class="col-4 mt-2">
+                                        <a href="">
+                                            <img class=" w-75" src="{{ asset('/public/assets/payment') }}/unicef_logo.png" alt="avatar" />
+                                        </a>
+                                    </div>
+                                    <div class="col-4 mt-2">
+                                        <a href="">
+                                            <img class=" w-75" src="{{ asset('/public/assets/payment') }}/gavi.png" alt="avatar" />
+                                        </a>
+                                    </div>
                                 </div>
-                                
                             </div>
                             <!-- Grid column -->
 
                             <!-- Grid column -->
                             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                 <!-- Links -->
-                                <h6 class="text-uppercase fw-bold">যোগাযোগ</h6>
+                                <h6 >যোগাযোগ</h6>
                                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px;" />
                                 <p><i class="fas fa-home mr-3"></i> কুমিল্লা, ৩৫০০</p>
                                 <p><i class="fas fa-envelope mr-3"></i> <a href="mailto: ceolabib@gmail.com.com"> ceolabib@gmail.com</a></p>
@@ -342,7 +269,7 @@
 
                 <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                     © {{ date('Y') }}
-                    <a class="text-white" href="">Aichgati IT</a>
+                    <a class="text-white" href="">ই-সেবা</a>
                 </div>
             </footer>
             <!-- Footer -->
