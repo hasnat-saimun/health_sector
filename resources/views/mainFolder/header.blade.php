@@ -1,3 +1,4 @@
+@extends('navModal')
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,19 +26,22 @@
                         <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto text-uppercase fw-bold ">
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#">হোম</a>
+                                    <a class="nav-link"  href="{{route('home')}}" >হোম</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#">হাসপাতাল এবং ডায়াগনস্টিক সেন্টার</a>
+                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">হাসপাতাল এবং ডায়াগনস্টিক</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="">ডাক্তার</a>
+                                    <a class="nav-link" href=""  data-bs-toggle="modal" data-bs-target="#exampleModal">ডাক্তার</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#">ই-মেডিসিন</a>
+                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ই-মেডিসিন</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#">ব্লাড খুঁজুন</a>
+                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">অ্যাম্বুলেন্স</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ব্লাড খুঁজুন</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,20 +88,20 @@
                 </div>
                 <!-- Carousel wrapper -->
                  
-                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                <!-- <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
                     
                     <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">নিবন্ধন করুন
                     </a></button>
                     
+                </div> -->
+                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
+                    <button class="btn btn-info" type="button"><a href="{{route('viewLogin')}}" class="text-dark">লগ ইন</a></button>
                 </div>
                 <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
-                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">লগ ইন</a></button>
+                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">স্মার্ট সেবা কার্ড সংগ্রহ</a></button>
                 </div>
                 <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
-                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">টিকা কার্ড সংগ্রহ</a></button>
-                </div>
-                <div class="d-grid gap-2 col-md-3 col-6 mx-auto py-2">
-                    <button class="btn btn-info" type="button"><a href="{{route('registerPage')}}" class="text-dark">কার্ড যাচাই করুন</a></button>
+                    <button class="btn btn-info" type="button"><a href="{{route('formView')}}" class="text-dark">কার্ড যাচাই করুন</a></button>
                 </div>
             </div>
             <div class="row mt-3">
@@ -275,6 +279,8 @@
             <!-- Footer -->
         </div>
         <!-- End of .container -->
+
+      
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
