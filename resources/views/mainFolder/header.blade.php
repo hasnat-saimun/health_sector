@@ -26,7 +26,7 @@
                         <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto text-uppercase fw-bold ">
                                 <li class="nav-item px-2">
-                                    <a class="nav-link"  href="{{route('home')}}" >হোম</a>
+                                    <a class="nav-link"  href="{{route('home')}}" >dfdf</a>
                                 </li>
                                 <li class="nav-item px-2">
                                     <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">হাসপাতাল এবং ডায়াগনস্টিক</a>
