@@ -11,44 +11,7 @@
         <link rel="stylesheet" href="{{ asset('/public/assets/css/') }}/style.css" />
     </head>
     <body style="background-color: #e8f9f7;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow mb-2">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-6 col-md-2 mx-auto text-center">
-                        <a class="navbar-brand" href="#">
-                            <img src="{{ asset('/public/assets/img') }}/logo.png" alt="" class="w-50" />
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-10 mx-auto">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"> </span>
-                        </button>
-                        <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto text-uppercase fw-bold ">
-                                <li class="nav-item px-2">
-                                    <a class="nav-link"  href="{{route('home')}}" >dfdf</a>
-                                </li>
-                                <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">হাসপাতাল এবং ডায়াগনস্টিক</a>
-                                </li>
-                                <li class="nav-item px-2">
-                                    <a class="nav-link" href=""  data-bs-toggle="modal" data-bs-target="#exampleModal">ডাক্তার</a>
-                                </li>
-                                <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ই-মেডিসিন</a>
-                                </li>
-                                <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">অ্যাম্বুলেন্স</a>
-                                </li>
-                                <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ব্লাড খুঁজুন</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+       
         <div class="container text-center fixed-margin "  >
             <div class="row">
                 <div class="col-12 text-info my-2">
