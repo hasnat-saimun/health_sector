@@ -34,7 +34,7 @@
                                     <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ডাক্তার</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ই-মেডিসিন</a>
+                                    <a class="nav-link" href="{{route('midicineView')}}">ই-মেডিসিন</a>
                                 </li>
                                 <li class="nav-item px-2">
                                     <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">অ্যাম্বুলেন্স</a>
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container  fixed-margin "  >
+        <div class="container  fixed-margin"  >
             @yield('body')
             
         </div>

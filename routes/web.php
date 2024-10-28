@@ -37,3 +37,9 @@ route::get('/hospital_list',[
     'uses' => 'hospitallistController@listPage', //hospital list page
     'as'   => 'listPage'
 ]);
+
+
+route::get('/e_medicine',[
+    'uses' => 'medicineController@midicineView', //medicine page
+    'as'   => 'midicineView'
+]);
