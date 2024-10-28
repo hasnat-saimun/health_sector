@@ -58,8 +58,8 @@
         
         </div>
     <!-- Carousel wrapper -->
-    <div id="carouselMultiItemExample" data-bs-carousel-init class="carousel slide carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-inner py-4 d-none d-lg-block">
+    <div id="carouselMultiItemExample" data-bs-carousel-init class="carousel slide carousel-dark d-none d-lg-block" data-bs-ride="carousel">
+        <div class="carousel-inner py-4 ">
             <!-- Inner -->
             <!-- Single item -->
             <div class="carousel-item active">
