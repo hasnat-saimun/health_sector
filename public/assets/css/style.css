@@ -136,8 +136,16 @@
 }
 
 @media only screen and (max-width: 819px) {
+    .navbar-nav{
+        position: absolute;
+        background:#F0F8FF;
+        padding: 1.5rem;
+    }
     body{
         font-size: 11px;
+    }
+    .nav-item{
+        font-size: 13px !important;
     }
     .balance-body {
         border: 2px;

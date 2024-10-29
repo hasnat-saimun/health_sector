@@ -13,22 +13,22 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow mb-2">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-6 col-md-2 mx-auto text-center">
+                    <div class="col-4 col-md-2 mx-auto text-start text-md-center">
                         <a class="navbar-brand" href="#">
                             <img src="{{ asset('/public/assets/img') }}/logo.png" alt="" class="w-50" />
                         </a>
                     </div>
-                    <div class="col-12 col-md-10 mx-auto">
+                    <div class="col-8 col-md-10 mx-auto text-end text-md-start">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"> </span>
                         </button>
                         <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto text-uppercase fw-bold ">
+                            <ul class="navbar-nav m-auto text-start text-uppercase fw-bold ">
                                 <li class="nav-item px-2">
                                     <a class="nav-link" href="{{route('home')}}">হোম</a>
                                 </li>
                                 <li class="nav-item px-2">
-                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">হাসপাতাল এবং ডায়াগনস্টিক সেন্টার</a>
+                                    <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">হাসপাতাল এবং ডায়াগনস্টিক</a>
                                 </li>
                                 <li class="nav-item px-2">
                                     <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">ডাক্তার</a>
